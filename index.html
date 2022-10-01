@@ -14,20 +14,10 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/collaps.css">
     <script src="js/collaps.js"></script>
-    <link rel="stylesheet" href="css/loader.css">
     <title>Document</title>
     <style>
         body {
             background-color: rgb(130, 126, 126);
-        }
-        
-        input[type=text] {
-            width: 130px;
-            transition: width 0.4s ease-in-out;
-        }
-        
-        input[type=text]:focus {
-            width: 300px;
         }
         
         .mysticky {
@@ -45,49 +35,44 @@
             width: 20vw;
         }
         
-        .logo1 {
-            width: 10vw;
-        }
-        
         @media screen and (max-width:576px) {
-            .mypdding {
-                padding: 15px !important;
-            }
+            
+       
+        .mypdding{
+            padding: 15px !important;
         }
-        
-        iframe {
-            height: 1200px;
-            max-height: fit-content;
-        }
-        
-        a:hover {
-            background-color: rgb(4, 26, 83);
-            color: white !important;
-            font-weight: bolder;
-            border-radius: 5px;
-        }
-        
-        .modal-fullscreen {
-            width: 50%;
-            margin: 50px auto;
-            height: 800px;
-        }
-        
-        @media screen and (max-width:900px) {
-            .modal-fullscreen {
-                width: 80%;
-                margin: auto;
-                height: 800px;
-            }
-        }
-        
-        @media screen and (max-width:700px) {
-            .modal-fullscreen {
-                width: 100%;
-                margin: auto;
-                height: 100%;
-            }
-        }
+    }
+    iframe{
+        height:1200px;
+        max-height: fit-content;
+    }
+    a:hover{
+       background-color:rgb(4, 26, 83);
+       color: white !important;
+       font-weight: bolder;
+       border-radius: 5px;
+    }
+    .modal-fullscreen{
+        width:50%;
+        margin: 50px auto;
+        height: 800px;
+    }
+
+    @media screen and (max-width:900px){
+        .modal-fullscreen{
+        width:80%;
+        margin:  auto;
+        height: 800px;
+    } 
+    }
+    @media screen and (max-width:700px){
+        .modal-fullscreen{
+        width:100%;
+        margin:  auto;
+        height: 100%;
+    } 
+    }
+   
     </style>
 </head>
 
@@ -103,7 +88,7 @@
                 </form>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-md navbar-light bg-primary btn-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary btn-secondary">
             <div class="container-fluid">
                 <a class="btn btn-outline-warning" href="home.html" target="input">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,19 +100,19 @@
                             <a class="nav-link" aria-current="page" href="Aboutus.html" target="input">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gallery.html" target="input">Gallery</a>
+                            <a class="nav-link" href="imagegallery.php" target="input">Gallery new</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  Course
                 </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="course.html">FullTime</a></li>
-                                <li><a class="dropdown-item" href="course.html">PartTime</a></li>
+                                <li><a class="dropdown-item" href="#">FullTime</a></li>
+                                <li><a class="dropdown-item" href="#">PartTime</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="course.html">Special</a></li>
+                                <li><a class="dropdown-item" href="#">Special</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -139,11 +124,11 @@
                 </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                 <li><a class="dropdown-item" href="downloadres/Diploma Courses and Entry Qualification.pdf" target="_blank">Diploma Courses and Entry Qualification</a></li>
-                                <li><a class="dropdown-item" href="downloadres/GazetteS21-11-19.pdf" target="_blank">Gazette</a></li>
-                                <li><a class="dropdown-item" href="downloadres/ktec_application.pdf" target="_blank">Application</a></li>
-                                <li><a class="dropdown-item" href="downloadres/Student_Recruitment_Application.pdf" target="_blank">Recruitment Application</a></li>
-                                <li><a class="dropdown-item" href="downloadres/VTA_ACT.pdf" target="_blank">VTA Act</a></li>
-                                <li><a class="dropdown-item" href="downloadres/VTA_Application-japan.pdf" target="_blank">Application japan</a></li>
+                                <li><a class="dropdown-item" href="downloadres/GazetteS21-11-19.pdf"target="_blank">Gazette</a></li>
+                                <li><a class="dropdown-item" href="downloadres/ktec_application.pdf"target="_blank">Application</a></li>
+                                <li><a class="dropdown-item" href="downloadres/Student_Recruitment_Application.pdf"target="_blank">Recruitment Application</a></li>
+                                <li><a class="dropdown-item" href="downloadres/VTA_ACT.pdf"target="_blank">VTA Act</a></li>
+                                <li><a class="dropdown-item" href="downloadres/VTA_Application-japan.pdf"target="_blank">Application japan</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -154,8 +139,8 @@
             </div>
         </nav>
         <div class="container">
-            <iframe src="home.html" frameborder="0" width="100%" name="input"></iframe>
-
+            <iframe src="home.html" frameborder="0" width="100%"  name="input"></iframe>
+            
         </div>
         <div class="icon-bar">
             <a href="https://www.facebook.com/vtasl" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -166,32 +151,32 @@
         </div>
 
 
-        <!-- The Modal -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
 
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title"><img src="image/vta new logo.png" class="logo1">Fill the form and Apply our Courses</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
 
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <iframe src="myform.html" frameborder="0" style="width:100%; height:100%"></iframe>
-                    </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <iframe src="myform.html" frameborder="0" style="width:100%; height:100%" ></iframe>
+            </div>
 
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    </div>
-
-                </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
             </div>
 
         </div>
     </div>
+
+</div>
+</div>
 
     <footer class="footer mt-auto py-3 bg-dark mysticky">
         <div class="container">
@@ -199,31 +184,6 @@
         </div>
     </footer>
 
-
-
-    <div id="loader" class="center"></div>
-
-
-
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
 </body>
-
-</html>
-</body>
-
 
 </html>
